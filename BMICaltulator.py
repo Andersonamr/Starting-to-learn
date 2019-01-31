@@ -10,14 +10,14 @@ height2 = height/100
 bmi = weight/height2 ** 2
 
 if bmi < 18.5:
-    print("Hey", name, "your BMI is:", bmi)
+    print("Hey {} your BMI is: {:.1f}".format(name, bmi))
     print("You're Underweight!")
 elif bmi >= 18.6 and bmi < 24.9:
-    print("Hey", name, "your BMI is:", bmi)
+    print("Hey {} your BMI is: {:.1f}".format(name, bmi))
     print("You're Normal Weight!")
 elif bmi >= 25 and bmi < 29.9:
-    print("Hey", name, "your BMI is:", bmi)
+    print("Hey {} your BMI is: {:.1f}".format(name, bmi))
     print("You're Overweight!")
 elif bmi > 30:
-    print("Hey", name, "your BMI is:", bmi)
+    print("Hey {} your BMI is: {:.1}".format(name, bmi))
     print("You're in obesity phase, be careful!")
